@@ -7,6 +7,8 @@ function converte() {
     } 
 
     let temperatura = (tempF - 32) * 5 / 9; 
+    temperatura = temperatura.toFixed(2); 
+
     document.getElementById("tempC").value = temperatura;
     
 

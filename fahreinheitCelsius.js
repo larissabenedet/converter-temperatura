@@ -7,7 +7,7 @@ function converte() {
     } 
 
     let temperatura = (tempF - 32) * 5 / 9; 
-    temperatura = temperatura.toFixed(2); /* arredondando o número */
+    temperatura = temperatura.toFixed(2); 
 
     document.getElementById("tempC").value = temperatura;
     
